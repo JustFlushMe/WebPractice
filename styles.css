@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+
+.header__logo{
+    text-transform: uppercase;
+    color:aliceblue;
+    font-weight: 500;
+    font-size: 32px;
+    cursor: pointer;
+    margin-top: 32px;
+    margin-left: 15%;
+}
+
+nav{
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+.topnav a{
+    color:aliceblue;
+    text-align: center;
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.topnav a:hover{
+    border-bottom: 3px solid #783fff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .main__welcome{
+    
+    color: rgb(255, 255, 255);
+    background: #111111;
+    text-align: center;
+    padding: 200px 0 400px 0;
+}
+
+main .main__welcome h1{
+    color: rgb(245, 245, 245);
+    font-size: 44px;
+}
+
+main .main__welcome p{
+    color: #a883ff;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.LANGTIME {
+    color: #ffffff;
+}
+
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+main .main__about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+  .dark {
+    transition: opacity 0.3s;
+  }
+
+  .dark:hover {
+    opacity: 0.5;
+  }
+
+
+.about__right{
+    margin-left: 75px;
+}
+
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #783fff;
+    padding-bottom: 10px;
+}
+
+.about__right p{
+    color: rgb(116, 116, 116);
+    margin: 10px 0 20px 0;
+}
+
+.about__right li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main__team{
+    color: rgb(255, 255, 255);
+    background: #111111;
+    text-align: center;
+    padding: 100px;
+}
+
+.main__team h1{
+    font-size: 44px;
+    padding-bottom: 10px;
+}
+
+
+.line {
+    width: 150px;
+    height: 3px;
+    background: #783fff;
+    position: relative;
+    left: 45%;
+    margin-bottom: 30px;
+    
+}
+
+.line2 {
+    width: 120px;
+    height: 3px;
+    background: #783fff;
+    position: relative;
+    left: 45.7%;
+    margin-bottom: 40px;
+    
+}
+
+.line3 {
+    width: 75px;
+    height: 3px;
+    background: #783fff;
+    position: relative;
+    left: 47.5%;
+    margin-bottom: 30px;
+    
+}
+
+.photo{
+    background: rgb(212, 212, 212);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.team__cards{
+    display: flex;
+    padding: 40px;
+}
+
+.card{
+    margin: 0 40px;
+}
+
+.name{
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.position{
+    font-size: 16px;
+    margin: 10px;
+    color:#ffffff;
+}
+
+.about__position{
+    font-size: 14px;
+}
+
+.services__cards{
+    grid-template-columns: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+
+}
+
+.main__services h1{
+    text-align: center;
+    padding: 50px 0 10px 0;
+}
+
+.main__services p{
+    color: #3d3d3d;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.services__card h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.main__recommended h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.main__recommended{
+    background: #111111;
+    padding: 50px 0 130px 0;
+    text-align: center;
+}
+
+.main__recommended img{
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.main__reviews{
+    background: #111111;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.main__reviews h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.main__reviews p{
+   margin-bottom: 15px;
+   font-style: italic;    
+}
+
+.main__reviews h4{
+    font-size: 18px;
+    color: rgb(207, 207, 207);
+    margin-bottom: 40px;
+}
+
+.container{
+    max-width: 1170px;
+    background-color: #ffffff;
+    margin:  auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    background: #ffffff;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #783fff;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+
+/* Для ссылок в футере сделана анимация, плавно сдвигающая вправо текст при наведенеии */
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(99, 99, 99);
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: rgb(109, 109, 109);
+    padding-left: 10px
+}
+
+.social-links img{
+    cursor: pointer;
+}
